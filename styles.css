@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.brick-head{
+  color: pink;
+  background-color:white;
+  display: block;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;  
+  z-index: 1;
+}
+
+.brick-head ul{
+  height: 27px;
+}
+
+.brick-head li{
+  display: inline;
+  font-size: 23.5px;
+}
+
+.hero-block{
+  background-position: 0px;
+  height: 1400px;
+  background-image: url(evian_logo.png);
+  background-size: cover;
+}
+
+.hero-block h1{
+  color: #E50043;
+    padding-top: 35%;
+  padding-left: 30%;
+  font-size: 80px;
+}
+
+.Product{
+
+  align-items: center;
+
+}
+
+.about{
+
+  margin-top: 150px;
+  margin-left: 140px;
+  margin-bottom: 150px;
+
+
+  height: 200px;
+  width: 85%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-style:solid;
+  border-color: #E50043;
+  border-radius:20px;
+
+}
+
+.edition{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.edition h3{
+  padding-left: 15%;
+}
+
+.edition p{
+  padding-left: 40%;
+}
+
+.Glass{
+  margin-top: 150px;
+  margin-left: 140px;
+  margin-bottom: 150px;
+
+  height: 280px;
+  width: 85%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-style:solid;
+  border-color: #E50043;
+  border-radius:20px;
+
+}
+
+.brick{
+  background-color:pink;
+  color: white;
+  padding: 20px;
+}
