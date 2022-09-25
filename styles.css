@@ -27,38 +27,35 @@
 }
 
 .hero-block{
-  background-position: 0px;
+
+  background-position: center;
   height: 1400px;
   background-image: url(evian_logo.png);
   background-size: cover;
+
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
 }
 
 .hero-block h1{
   color: #E50043;
-    padding-top: 35%;
-  padding-left: 30%;
   font-size: 80px;
 }
 
 .Product{
 
-  align-items: center;
+  width: 1040px;
+  margin: 0 auto;
 
 }
 
 .about{
 
   margin-top: 150px;
-  margin-left: 140px;
   margin-bottom: 150px;
-
-
-  height: 200px;
-  width: 85%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 15px;
 
   border-style:solid;
   border-color: #E50043;
@@ -68,9 +65,9 @@
 
 .edition{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-
+ 
 
 .edition h3{
   padding-left: 15%;
@@ -82,15 +79,11 @@
 
 .Glass{
   margin-top: 150px;
-  margin-left: 140px;
   margin-bottom: 150px;
-
-  height: 280px;
-  width: 85%;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 
   border-style:solid;
   border-color: #E50043;
